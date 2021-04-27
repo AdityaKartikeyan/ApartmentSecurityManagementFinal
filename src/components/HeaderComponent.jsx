@@ -7,7 +7,10 @@ class HeaderComponent extends Component {
         <header className="header">
           <nav className="navbar navbar-expand-lg navbar-light">
             <div>
-              <a href="http://localhost:3000" className="navbar-brand">
+              <a
+                href="https://github.com/AdityaKartikeyan/ApartmentSecurityManagementFinal.git"
+                className="navbar-brand"
+              >
                 Apartment Security Management
               </a>
             </div>

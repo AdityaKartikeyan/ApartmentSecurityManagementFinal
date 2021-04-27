@@ -5,9 +5,16 @@ class FooterComponent extends Component {
     return (
       <div>
         <footer className="footer">
-          <span className="text-muted">
-            All Rights Reversed 2020 @Capgemini
-          </span>
+          <a
+            style={{ textDecoration: "none", color: "teal" }}
+            href="https://github.com/AdityaKartikeyan/ApartmentSecurityManagementFinal.git"
+          >
+            <strong>Github link</strong>
+          </a>
+
+          <br></br>
+
+          <span className="text-muted">All Rights Reversed 2020</span>
         </footer>
       </div>
     );
